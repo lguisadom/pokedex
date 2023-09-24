@@ -31,7 +31,12 @@ Follow these steps to run the project in a development environment.
    docker-compose up -d
    ```
 
-5. Rebuild the database with the seed data
+5. Start the NestJS development server:
+   ```bash
+   yarn start:dev
+   ```
+
+6. Rebuild the database with the seed data
    
    ```bash
    http://localhost:3000/api/v2/seed
