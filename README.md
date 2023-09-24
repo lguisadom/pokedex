@@ -31,6 +31,12 @@ Follow these steps to run the project in a development environment.
    docker-compose up -d
    ```
 
+5. Rebuild the database with the seed data
+   
+   ```bash
+   http://localhost:3000/api/v2/seed
+   ```
+
 ## Start the Development Server
 Now that everything is set up, you can start the development server:
    ```bash
