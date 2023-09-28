@@ -31,21 +31,19 @@ Follow these steps to run the project in a development environment.
    docker-compose up -d
    ```
 
-5. Start the NestJS development server:
-   ```bash
-   yarn start:dev
-   ```
+5. Clone the file ```.env.template``` and rename the copy to ```.env```
 
-6. Rebuild the database with the seed data
-   
-   ```bash
-   http://localhost:3000/api/v2/seed
-   ```
+6. Fill the environment variables defined in the ```.env```
 
 ## Start the Development Server
-Now that everything is set up, you can start the development server:
+
+Now that everything is set up, you can start the NestJS development server server:
    ```bash
    yarn start:dev
    ```
 This will launch your NestJS application in development mode.
 
+## Rebuild the database with the seed data
+   ```bash
+   http://localhost:3000/api/v2/seed
+   ```
