@@ -22,6 +22,8 @@ export class PokemonService {
   ) {
     // const defaultLimit: number = configService.getOrThrow<number>('defaultLimit'); // throw error if env var not exist
     this.defaultLimit = configService.get<number>('defaultLimit');
+    const defaultLimit = configService.get<number>('defaultLimit');
+    console.log({defaultLimit});
   }
 
   async create(createPokemonDto: CreatePokemonDto) {
